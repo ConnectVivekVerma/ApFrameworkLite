@@ -7,7 +7,7 @@ private async void HowToUse()
              * Step 1: Get Request Processor   
              *      A few ways to do this 
              *          - Extend RequestProcessor class and add required pre and post methods. Then inject instacne to construstor
-             *          - Create RequestProcessorFactory to return RequestProcessor instnace with specific pre/post methods addehttps://github.com/ConnectVivekVerma/ApFrameworkLited based on parameter passed. 
+             *          - Create RequestProcessorFactory to return RequestProcessor instnace with specific pre/post methods added
              *          
              * Step 2:
              *      Call ProcessRequestAsync method on processor and pass in actual action to perform
